@@ -1,5 +1,5 @@
 # Turbulent-Modelling-using-Machine-Learning-Techniques
-MASc. Thesis
+Jie Bao, MASc. Thesis
 
 Recent improvement in GPUs allows for research in fundamental turbulence using Machine
 Learning. Current research area concerns the application of a neural network for the canonical
