@@ -7,3 +7,5 @@ turbulent channel case. Strategy includes building a loss function for the produ
 dissipation variables and feature pruning techniques. In turn improving the accuracy and
 efficiency of turbulent-viscosity models. The research objective is achieved using Deviate from CAL 
 and also Graham from Compute Canada. The high-order DNS data solution is solved using open-source solver PyFR (Discontinuous Galerkin Method).
+
+![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/TC-180.gif)
