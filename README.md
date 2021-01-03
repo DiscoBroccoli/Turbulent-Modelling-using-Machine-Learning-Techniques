@@ -12,6 +12,14 @@ The simulation below is a direct numerical simulation (DNS) of the canonical wal
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/re_bulk.gif)
 
+The flow field starts laminar and will transition into turbulent regime. However, this transition process can be very slow. Therefore, we can accelerate the transition by adding perturbation in the initial condition:
+
+![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/transition_u.gif)
+
+![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/transition_v.gif)
+
+![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/transition_w.gif)
+
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/TC-180.gif)
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Dimension.gif)
