@@ -8,7 +8,7 @@ dissipation variables and feature pruning techniques. In turn improving the accu
 efficiency of turbulent-viscosity models. The research objective is achieved using Deviate from CAL 
 and also Graham from Compute Canada. The high-order DNS data solution is solved using open-source solver PyFR (Discontinuous Galerkin Method).
 
-The simulation below is a direct numerical simulation of the canonical wall bounded turbulent channel case. In which the whole spatial and temporal spectrum are solved for accurate turbulence prediction. The showcased simulation is from the dimensionless shear Reynolds of 180. The bulk Reynolds is found using the relationship from [Dean(1978)](https://ui.adsabs.harvard.edu/abs/1974STIN...7522638D/abstract).
+The simulation below is a direct numerical simulation (DNS) of the canonical wall bounded turbulent channel case. In which the whole spatial and temporal spectrum are solved for accurate turbulence prediction. The showcased simulation is from the dimensionless shear Reynolds of 180. The bulk Reynolds is found using the relationship from [Dean(1978)](https://ui.adsabs.harvard.edu/abs/1974STIN...7522638D/abstract).
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/re_bulk.gif)
 
@@ -24,3 +24,7 @@ Then build a neural network to predict the Production and Dissipation terms in t
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Production.gif)
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Dissipation.gif)
+
+The current industry standard fluid solver uses a Reynolds-Averaged-Navier-Stokes solver (RANS). Unlike DNS, the meshes are usually coarse and does not solve all the way down to the smallest scale. This reduces the computation cost but decreases the accuracy. Furthermore, the solver is using a time-averaged Navier-Stokes equation, giving rise to an extra unknown term called the Reynolds stress. To overcome this challenge many eddy-viscosity based model are created, some like the k-e model computes the turbulent kinetic energy field to estimate the Reynolds stress (Boussinesq approximation).
+
+**To be continued**
