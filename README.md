@@ -18,7 +18,7 @@ The simulation below is a direct numerical simulation (DNS) of the canonical wal
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Values.gif)
 
-The goal of the research project is to predict to gather a database of high fidelity data ranging from Re = 180, 285, 395, 450, 590.
+The goal of the research project is to gather a database of high fidelity data ranging from Re = 180, 285, 395, 450, 590.
 Then build a neural network to predict the Production and Dissipation terms in the turbulent kinetic energy PDE.
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Production.gif)
