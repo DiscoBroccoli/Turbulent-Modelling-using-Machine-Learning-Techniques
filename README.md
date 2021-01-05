@@ -22,8 +22,6 @@ The flow field starts laminar and will transition into turbulent regime. However
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/iso.gif)
 
-![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/side-180.gif)
-
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Dimension.gif)
 
 ![Alt Text](https://github.com/DiscoBroccoli/Turbulent-Modelling-using-Machine-Learning-Techniques/blob/main/latex_equation/Values.gif)
