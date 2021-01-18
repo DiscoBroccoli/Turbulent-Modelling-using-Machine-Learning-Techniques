@@ -1,5 +1,5 @@
 # Turbulence-Modeling-using-Machine-Learning-Techniques
-Jie Bao, MASc. Thesis
+Jie Bao, MASc. Thesis. 
 
 **Short summary**: Recent improvement in GPUs allows for research in fundamental turbulence using Machine
 Learning. Current research area concerns the application of a neural network for the canonical
@@ -35,4 +35,4 @@ Then build a neural network to predict the Production and Dissipation terms in t
 
 The current industry standard fluid solver uses a Reynolds-Averaged-Navier-Stokes solver (RANS). Unlike DNS, the meshes are usually coarse and does not solve all the way down to the smallest scale. This reduces the computation cost but decreases the accuracy. Furthermore, the solver is using a time-averaged Navier-Stokes equation, giving rise to an extra unknown term called the Reynolds stress. To overcome this challenge many eddy-viscosity based model are created, some like the k-e model computes the turbulent kinetic energy field to estimate the Reynolds stress (Boussinesq approximation).
 
-**To be continued**
+**To be continued at https://jiebao.ca/projects/Turbulence_Modeling**
