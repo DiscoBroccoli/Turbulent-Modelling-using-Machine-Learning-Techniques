@@ -1,4 +1,4 @@
-# Turbulence-Modelling-using-Machine-Learning-Techniques
+# Turbulence-Modeling-using-Machine-Learning-Techniques
 Jie Bao, MASc. Thesis
 
 **Short summary**: Recent improvement in GPUs allows for research in fundamental turbulence using Machine
