@@ -1,6 +1,8 @@
 # Turbulence-Modeling-using-Machine-Learning-Techniques
 Jie Bao, MASc. Thesis. 
 
+more content at: [https://jiebao.ca/projects/Turbulence_Modeling](https://jiebao.ca/projects/Turbulence_Modeling)
+
 **Short summary**: Recent improvement in GPUs allows for research in fundamental turbulence using Machine
 Learning. Current research area concerns the application of a neural network for the canonical
 turbulent channel case. Strategy includes building a loss function for the production and
